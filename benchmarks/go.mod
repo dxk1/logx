@@ -6,7 +6,7 @@ replace github.com/dxk1/logx => ../
 
 require (
 	github.com/apex/log v1.9.0
-	github.com/dxk1/logx v1.23.0
+	github.com/dxk1/logx v1.25.0
 	github.com/go-kit/log v0.2.1
 	github.com/rs/zerolog v1.28.0
 	github.com/sirupsen/logrus v1.9.0
