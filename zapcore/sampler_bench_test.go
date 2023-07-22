@@ -26,9 +26,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/dxk1/logx/internal/ztest"
+	. "github.com/dxk1/logx/zapcore"
 	"github.com/stretchr/testify/assert"
-	"go.uber.org/zap/internal/ztest"
-	. "go.uber.org/zap/zapcore"
 )
 
 var counterTestCases = [][]string{

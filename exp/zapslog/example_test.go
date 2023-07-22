@@ -25,8 +25,8 @@ import (
 	"net"
 	"time"
 
-	"go.uber.org/zap"
-	"go.uber.org/zap/exp/zapslog"
+	"github.com/dxk1/logx"
+	"github.com/dxk1/logx/exp/zapslog"
 	"golang.org/x/exp/slog"
 )
 

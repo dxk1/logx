@@ -26,10 +26,10 @@ import (
 	"strings"
 	"time"
 
+	"github.com/dxk1/logx/internal/bufferpool"
+	"github.com/dxk1/logx/internal/exit"
+	"github.com/dxk1/logx/internal/pool"
 	"go.uber.org/multierr"
-	"go.uber.org/zap/internal/bufferpool"
-	"go.uber.org/zap/internal/exit"
-	"go.uber.org/zap/internal/pool"
 )
 
 var _cePool = pool.New(func() *CheckedEntry {

@@ -24,8 +24,8 @@ import (
 	"log"
 	"testing"
 
-	"go.uber.org/zap"
-	"go.uber.org/zap/internal/ztest"
+	"github.com/dxk1/logx"
+	"github.com/dxk1/logx/internal/ztest"
 )
 
 func BenchmarkDisabledWithoutFields(b *testing.B) {

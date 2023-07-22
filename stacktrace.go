@@ -23,9 +23,9 @@ package zap
 import (
 	"runtime"
 
-	"go.uber.org/zap/buffer"
-	"go.uber.org/zap/internal/bufferpool"
-	"go.uber.org/zap/internal/pool"
+	"github.com/dxk1/logx/buffer"
+	"github.com/dxk1/logx/internal/bufferpool"
+	"github.com/dxk1/logx/internal/pool"
 )
 
 var _stacktracePool = pool.New(func() *stacktrace {

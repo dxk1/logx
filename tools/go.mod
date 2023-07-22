@@ -1,4 +1,4 @@
-module go.uber.org/zap/tools
+module github.com/dxk1/logx/tools
 
 require (
 	github.com/mgechev/revive v1.2.5

@@ -25,8 +25,8 @@ import (
 	"bytes"
 	"io"
 
-	"go.uber.org/zap"
-	"go.uber.org/zap/zapcore"
+	"github.com/dxk1/logx"
+	"github.com/dxk1/logx/zapcore"
 )
 
 // Writer is an io.Writer that writes to the provided Zap logger, splitting log

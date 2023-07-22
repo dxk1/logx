@@ -1,10 +1,10 @@
-module go.uber.org/zap/exp
+module github.com/dxk1/logx/exp
 
 go 1.19
 
 require (
 	github.com/stretchr/testify v1.8.1
-	go.uber.org/zap v1.24.0
+	github.com/dxk1/logx v1.24.0
 	golang.org/x/exp v0.0.0-20230425010034-47ecfdc1ba53
 )
 

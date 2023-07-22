@@ -24,9 +24,9 @@ import (
 	"fmt"
 	"testing"
 
-	"go.uber.org/zap"
-	"go.uber.org/zap/zapcore"
-	"go.uber.org/zap/zaptest/observer"
+	"github.com/dxk1/logx"
+	"github.com/dxk1/logx/zapcore"
+	"github.com/dxk1/logx/zaptest/observer"
 
 	"github.com/stretchr/testify/require"
 )

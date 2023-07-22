@@ -22,15 +22,15 @@
 // encoding-agnostic representation of log entries. It's useful for
 // applications that want to unit test their log output without tying their
 // tests to a particular output encoding.
-package observer // import "go.uber.org/zap/zaptest/observer"
+package observer // import "github.com/dxk1/logx/zaptest/observer"
 
 import (
 	"strings"
 	"sync"
 	"time"
 
-	"go.uber.org/zap/internal"
-	"go.uber.org/zap/zapcore"
+	"github.com/dxk1/logx/internal"
+	"github.com/dxk1/logx/zapcore"
 )
 
 // ObservedLogs is a concurrency-safe, ordered collection of observed logs.

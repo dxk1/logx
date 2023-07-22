@@ -24,8 +24,8 @@ import (
 	"context"
 	"runtime"
 
-	"go.uber.org/zap"
-	"go.uber.org/zap/zapcore"
+	"github.com/dxk1/logx"
+	"github.com/dxk1/logx/zapcore"
 	"golang.org/x/exp/slog"
 )
 
